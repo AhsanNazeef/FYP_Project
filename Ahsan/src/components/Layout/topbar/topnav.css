@@ -1,0 +1,81 @@
+.topnav {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.topnav__search {
+  position: relative;
+  height: 40px;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border-radius: 20px;
+  border-color: white;
+  border-width: 2px;
+  overflow: hidden;
+}
+
+.topnav__search > input {
+  border-radius: 20px;
+  border-color: white;
+  border-width: 2px;
+  height: 100%;
+  width: 100%;
+  padding: 10px 100px 10px 20px;
+  font-size: 1rem;
+
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+}
+
+.topnav__search > i {
+  font-size: 1.2rem;
+  position: absolute;
+  right: 15px;
+}
+
+.topnav__right {
+  display: flex;
+  align-items: center;
+}
+
+.topnav__right-item ~ .topnav__right-item {
+  margin-left: 20px;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.notification-item:hover {
+  background-color: var(--second-bg);
+}
+
+.notification-item > i {
+  margin-right: 20px;
+  font-size: 0.5rem;
+}
+
+.topnav__right-user {
+  display: flex;
+  align-items: center;
+}
+
+.topnav__right-user__image {
+  margin-top: -2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.topnav__right-user__image > img {
+  width: 100%;
+}
